@@ -23,6 +23,5 @@ test:
 production:
   <<: *default
   adapter: postgresql
-  url: <%= postgres://icmcjdgwxisnog:c1e971e48f24c7b9699b5263723a571655cfd9f8369df4741ec2205ec9b74ef9@ec2-174-129-33-176.compute-1.amazonaws.com:5432/d958rq7qi5p7gj
- %>
+  url: <%= postgres://icmcjdgwxisnog:c1e971e48f24c7b9699b5263723a571655cfd9f8369df4741ec2205ec9b74ef9@ec2-174-129-33-176.compute-1.amazonaws.com:5432/d958rq7qi5p7gj%>
   database: db/production.sqlite3
