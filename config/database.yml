@@ -22,10 +22,6 @@ test:
 
 production:
   <<: *default
-  encoding: utf8  
-  adapter: postgresql  
-  port: 5432  
-  username:  icmcjdgwxisnog
-  host: ec2-174-129-33-176.compute-1.amazonaws.com
-  database: d958rq7qi5p7gj
-  password: c1e971e48f24c7b9699b5263723a571655cfd9f8369df4741ec2205ec9b74ef9
+  adapter: postgresql
+  url: postgres://zzghsjawsdknfq:2dbeb76dab44cbf0999e4fe1784be56435a9a987cc66fbbd1a387e64a16adc0b@ec2-107-21-125-211.compute-1.amazonaws.com:5432/df3v7nsoui1c5b
+  
